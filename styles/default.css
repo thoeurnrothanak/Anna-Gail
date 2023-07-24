@@ -1,0 +1,1018 @@
+@import url("https://fonts.googleapis.com/css2?family=Arizonia&display=swap");
+/* Root */
+:root {
+  ---pink: #f0dcd5;
+  ---black: #222222;
+  ---white: #ffffff;
+  ---lightbrown: #a27427;
+  ---darkbrown: #704309;
+  ---stoke: #ffe7de;
+  ---lightpink: #f0dfdf;
+  ---para: #909090;
+}
+/* Root */
+
+/* Body */
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  font-family: "Gilroy", sans-serif;
+}
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 0px;
+  background-image: url(img/bac.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section {
+  padding: 20px 150px;
+}
+/*body*/
+/*header*/
+.header {
+  background-color: transparent;
+}
+.header .container {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .container .logo a h1 {
+  font-size: 56px;
+  font-family: "Arizonia", cursive;
+  letter-spacing: 10px;
+  color: var(---lightbrown);
+}
+.header .container nav {
+  display: flex;
+  align-items: center;
+}
+.header .container .navbar {
+  margin-right: 20px;
+}
+.header .container .navbar a {
+  font-size: 18px;
+  color: var(---black);
+  font-weight: 700;
+  font-family: "Gilroy", sans-serif;
+  padding: 15px 20px;
+}
+.header .container nav .right-data {
+  display: flex;
+  align-items: center;
+}
+.header .container nav .right-data #menu {
+  color: var(---black);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.123);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  font-size: 20px;
+  margin-right: 20px;
+  display: none;
+}
+.header .container nav .right-data button {
+  background-color: var(---pink);
+  width: 210px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  border-radius: 100px;
+  box-shadow: 0px 10px 20px #dabaaf;
+}
+.header .container nav .right-data button a {
+  font-size: 16px;
+  font-weight: 800;
+  color: var(---black);
+}
+.header .container nav .right-data button a:hover {
+  background: linear-gradient(90deg, var(---lightbrown), var(---darkbrown));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header .container .navbar a:hover {
+  background: linear-gradient(90deg, var(---lightbrown), var(---darkbrown));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header .container nav .right-data #menu:hover {
+  background: linear-gradient(90deg, var(---lightbrown), var(---darkbrown));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header .container .navbar.active {
+  visibility: inherit;
+}
+/*header*/
+/* Hero */
+.hero {
+  background-color: transparent;
+  padding: 0px 0px;
+}
+.hero .hero-image {
+  height: 800px;
+  display: flex;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero .hero-image .text {
+  padding-left: 150px;
+}
+.hero .hero-image .text h5 {
+  font-size: 30px;
+  color: var(---black);
+  font-weight: 700;
+  margin-left: 100px;
+}
+.hero .hero-image .text h1 {
+  font-size: 70px;
+  color: var(---white);
+  font-family: "Arizonia", cursive;
+  text-transform: capitalize;
+  letter-spacing: 10px;
+  background: linear-gradient(90deg, var(---lightbrown), var(---darkbrown));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 30px 0px;
+}
+.hero .hero-image .text p {
+  font-size: 40px;
+  color: var(---black);
+  font-weight: 700;
+}
+.hero .hero-image .text button {
+  width: 300px;
+  height: 70px;
+  border-radius: 100px;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: var(---pink);
+  border: 1px solid var(---stoke);
+  box-shadow: 0px 10px 20px #dabaaf;
+  margin-top: 30px;
+}
+.hero .hero-image .text button a {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(---black);
+}
+.hero .hero-image .text button a:hover {
+  background: linear-gradient(90deg, var(---lightbrown), var(---darkbrown));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero .slider .dot span {
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(90deg, var(---lightbrown), var(---darkbrown));
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+/* Hero */
+
+/* about */
+.about {
+  background-color: transparent;
+  margin-top: 100px;
+}
+.about .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about .container .text-about h1 {
+  text-transform: capitalize;
+  font-size: 80px;
+  color: var(---white);
+
+  font-family: "Arizonia", cursive;
+  height: 90px;
+  background: linear-gradient(90deg, var(---lightbrown), var(---darkbrown));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about .container .text-about p {
+  font-size: 20px;
+  color: var(---black);
+  font-weight: 500;
+  line-height: 50px;
+  margin-top: 40px;
+}
+.about .container .text-about button {
+  width: 300px;
+  height: 70px;
+  border-radius: 100px;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: var(---pink);
+  border: 1px solid var(---stoke);
+  box-shadow: 0px 10px 20px #dabaaf;
+  margin-top: 40px;
+}
+.about .container .text-about button a {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(---black);
+}
+.about .container .text-about button a:hover {
+  background: linear-gradient(90deg, var(---lightbrown), var(---darkbrown));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* about */
+
+/*service*/
+.service {
+  margin-top: 100px;
+}
+.service .heading {
+  text-align: center;
+}
+.service .heading h1 {
+  font-size: 80px;
+  color: var(---white);
+  font-family: "Arizonia", cursive;
+  background: linear-gradient(90deg, var(---lightbrown), var(---darkbrown));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: capitalize;
+}
+.service .heading p {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(---black);
+  line-height: 30px;
+  margin-top: 20px;
+}
+.service .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(---white);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.158);
+  border-radius: 20px;
+  height: 600px;
+  margin-top: 50px;
+}
+.service .container .s1 {
+  border-radius: 30px;
+  width: 380px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #f3f3f379;
+}
+.service .container .s1:hover {
+  background-color: var(---lightpink);
+  border: 2px solid var(---white);
+  box-shadow: 0px 0px 20px #ce8a8a3f;
+  transform: scale(1.1, 1.1);
+  transition: 0.7s;
+}
+.service .container .s1 {
+  text-align: center;
+}
+.service .container .s1 .data .serivce-image img {
+  border: 5px solid var(---white);
+  border-radius: 150px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.192);
+}
+.service .container .s1 .data .text {
+  margin-top: 20px;
+}
+.service .container .s1 .data .text h1 {
+  font-size: 40px;
+  color: var(---white);
+  font-family: "Arizonia", cursive;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  background: linear-gradient(90deg, var(---lightbrown), var(---darkbrown));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.service .container .s1 .data .text p {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(---black);
+  line-height: 30px;
+  margin: 20px 0px;
+}
+.service .container .s1 .data .text .button a {
+  font-size: 20px;
+  color: var(---black);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.service .container .s1 .data .text .button i {
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.service .container .s1 .data .text .button i:hover {
+  background: linear-gradient(90deg, var(---lightbrown), var(---darkbrown));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.service .container .s1 .data .text .button a:hover {
+  background: linear-gradient(90deg, var(---lightbrown), var(---darkbrown));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*service*/
+
+/*testimonial*/
+.tes {
+  background-image: url(img/tes-back.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  margin-top: 100px;
+}
+.tes .heading {
+  text-align: center;
+  margin-top: 50px;
+}
+.tes .heading h1 {
+  text-transform: capitalize;
+  font-size: 80px;
+  color: var(---white);
+  font-family: "Arizonia", cursive;
+  letter-spacing: 5px;
+  background: linear-gradient(90deg, var(---lightbrown), var(---darkbrown));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.tes .tesslider {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tes .tesslider .sliderbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tes .tesslider .sliderbox .data-box {
+  background-color: var(---white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  width: 80%;
+  height: 500px;
+  margin-bottom: 40px;
+  box-shadow: 0px 0px 30px #dabaafd8;
+}
+.tes .tesslider .sliderbox .data-box .text-box {
+  text-align: center;
+  border: 3px solid var(---pink);
+  width: 95%;
+  padding: 30px 0px;
+  border-radius: 20px;
+}
+.tes .tesslider .sliderbox .data-box .text-box .image img {
+  border: 5px solid var(---white);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.171);
+  border-radius: 10px;
+}
+.tes .tesslider .sliderbox .data-box .text-box h2 {
+  font-size: 100px;
+  height: 50px;
+  background: linear-gradient(90deg, var(---lightbrown), var(---darkbrown));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.tes .tesslider .sliderbox .data-box .text-box p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  margin: 20px 0px;
+}
+.tes .tesslider .sliderbox .data-box .text-box h1 {
+  background: linear-gradient(90deg, var(---lightbrown), var(---darkbrown));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25px;
+  color: var(---white);
+  font-family: "Arizonia", cursive;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+.tes .tesslider .dot span {
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(90deg, var(---lightbrown), var(---darkbrown));
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+/*testimonial*/
+
+/*contact us*/
+.contact {
+  background-color: transparent;
+  margin-top: 100px;
+}
+.contact .heading {
+  text-align: center;
+}
+.contact .heading h1 {
+  text-transform: capitalize;
+  font-size: 80px;
+  color: var(---white);
+  font-family: "Arizonia", cursive;
+  letter-spacing: 5px;
+  background: linear-gradient(90deg, var(---lightbrown), var(---darkbrown));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.contact .heading p {
+  font-size: 18px;
+  color: var(---black);
+  line-height: 30px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.contact .container {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.contact .container .left-data {
+  background-color: transparent;
+  padding-left: 170px;
+}
+.contact .container .left-data .icon {
+  display: flex;
+  align-items: center;
+}
+.contact .container .left-data .icon i {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  border: 2px solid var(---darkbrown);
+  background: linear-gradient(90deg, var(---lightbrown), var(---darkbrown));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 20px 0px;
+}
+.contact .container .left-data .icon .text {
+  margin-left: 10px;
+}
+.contact .container .left-data .icon .text h5 {
+  color: var(---black);
+  font-size: 28px;
+  font-weight: 600;
+}
+.contact .container .left-data .icon .text p {
+  color: var(---para);
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.contact .container .right-data {
+  background-color: transparent;
+  padding-right: 170px;
+}
+.contact .container .right-data .form .data-input {
+  display: flex;
+  align-items: center;
+}
+.contact .container .right-data .form .data-input .input {
+  width: 350px;
+  height: 70px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.096);
+  border-radius: 10px;
+  margin: 10px 10px;
+}
+.contact .container .right-data .form .data-input input {
+  width: 100%;
+  height: 70px;
+  border-radius: 10px;
+  padding-left: 20px;
+  font-weight: 500;
+  color: var(---para);
+  font-size: 17px;
+}
+.contact .container .right-data .form .data-input input::placeholder {
+  font-weight: 500;
+  color: var(---para);
+  font-size: 17px;
+}
+.contact .container .right-data .form .message .input {
+  width: 720px;
+  height: 200px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.096);
+  border-radius: 10px;
+  margin: 10px 10px;
+}
+.contact .container .right-data .form .message input {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  padding-left: 20px;
+  font-weight: 500;
+  color: var(---para);
+  font-size: 17px;
+}
+.contact .container .right-data .form .message input::placeholder {
+  font-weight: 500;
+  color: var(---para);
+  font-size: 17px;
+}
+.contact .container .right-data .form .button {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.contact .container .right-data .form .button a {
+  font-size: 20px;
+  color: var(---white);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  background: linear-gradient(90deg, var(---lightbrown), var(---darkbrown));
+  width: 230px;
+  height: 70px;
+}
+.contact .container .right-data .form .button i {
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*contact us*/
+
+/*footer*/
+.footer {
+  background-color: var(---lightpink);
+  margin-top: 100px;
+}
+.footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .container .navbar a {
+  font-size: 16px;
+  color: var(---black);
+  font-weight: 600;
+  padding: 0px 20px;
+}
+.footer .container .search h1 {
+  font-size: 30px;
+}
+.footer .container .search .input {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.footer .container .search .input input {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px 0px 0px 5px;
+  padding-left: 10px;
+  font-size: 12px;
+  color: var(---black);
+  font-weight: 600;
+}
+.footer .container .search .input input::placeholder {
+  font-size: 12px;
+  color: var(---black);
+  font-weight: 600;
+}
+.footer .container .search .input i {
+  background: linear-gradient(90deg, var(---lightbrown), var(---darkbrown));
+  width: 50px;
+  height: 50px;
+  color: var(---white);
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+}
+/*footer*/
+
+/* media quries */
+
+@media (max-width: 1690px) {
+  .contact .container .left-data {
+    padding-left: 100px;
+  }
+  .contact .container .right-data {
+    padding-right: 100px;
+  }
+}
+
+@media (max-width: 1554px) {
+  section {
+    padding: 10px 70px;
+  }
+  .contact .container .left-data {
+    padding-left: 50px;
+  }
+  .contact .container .right-data {
+    padding-right: 50px;
+  }
+  .header .container .navbar {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 1280px) {
+  section {
+    padding: 10px 50px;
+  }
+  .header .container .navbar {
+    position: absolute;
+    background-color: var(---white);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.11);
+    width: 100%;
+    top: 10%;
+    right: 0%;
+    z-index: 1000;
+    border-radius: 30px;
+    visibility: hidden;
+  }
+  .header .container nav .navbar a {
+    display: block;
+    text-align: center;
+  }
+  .header .container nav .right-data #menu {
+    display: inherit;
+  }
+  .hero .hero-image .text {
+    padding-left: 50px;
+  }
+  .hero .hero-image {
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero .hero-image .text {
+    text-align: center;
+  }
+  .hero .hero-image .text h5 {
+    margin-left: 0px;
+  }
+  .about {
+    margin-top: 50px;
+  }
+  .about .container {
+    display: block;
+  }
+  .about .container .about-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about .container .text-about {
+    text-align: center;
+  }
+  .service {
+    margin-top: 50px;
+  }
+  .service .container {
+    display: block;
+    height: 100%;
+    padding: 50px 0px;
+  }
+  .service .container .s1 {
+    margin: 20px auto;
+  }
+  .tes {
+    margin-top: 50px;
+  }
+  .contact {
+    margin-top: 50px;
+  }
+  .contact .container {
+    display: block;
+  }
+  .contact .container .left-data {
+    padding-left: 0px;
+  }
+  .contact .container .right-data {
+    padding-right: 0px;
+  }
+  .contact .container .left-data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact .container .left-data .icon {
+    margin: 0px 20px;
+  }
+  .contact .container .left-data .icon .text {
+    display: none;
+  }
+  .contact .container .right-data .form .data-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact .container .right-data .form .message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact .container .right-data .form .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .container {
+    display: block;
+  }
+  .footer .container .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .container .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0px;
+  }
+  .footer .container .navbar nav a {
+    display: block;
+    line-height: 50px;
+  }
+  .footer .container .search {
+    text-align: center;
+  }
+  .footer .container .search .input {
+    margin: 10px auto;
+  }
+}
+
+@media (max-width: 1080px) {
+  section {
+    padding: 10px 25px;
+  }
+  .hero .hero-image .text {
+    padding-left: 25px;
+  }
+  .tes .tesslider .sliderbox .data-box .text-box {
+    text-align: center;
+    border: none;
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 10px 16px;
+  }
+  .hero .hero-image .text {
+    padding-left: 12px;
+  }
+  .tes .heading h1 {
+    font-size: 45px;
+    line-height: 40px;
+  }
+  .contact .container .right-data .form .data-input .input {
+    width: 100%;
+    height: 70px;
+  }
+  .contact .container .right-data .form .message {
+    width: 100%;
+  }
+  .contact .heading h1 {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 640px) {
+  section {
+    padding: 10px 10px;
+  }
+  .header .container nav .right-data #menu {
+    margin-right: 0px;
+  }
+  .header .container nav .right-data button {
+    display: none;
+  }
+  .hero .hero-image .text {
+    padding-left: 10px;
+  }
+  .hero .hero-image .text h1 {
+    margin-top: 20px;
+  }
+  .about .container .text-about h1 {
+    font-size: 60px;
+  }
+  .about .container .about-image {
+    width: 90%;
+    margin: 0px auto;
+  }
+  .about .container .about-image img {
+    width: 100%;
+  }
+  .service .heading h1 {
+    font-size: 60px;
+  }
+  .service .heading p {
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 25px;
+  }
+  .tes .tesslider .sliderbox .data-box .text-box p {
+    font-size: 14px;
+    margin: 10px 0px;
+  }
+  .tes .tesslider .sliderbox .data-box .text-box h1 {
+    font-size: 20px;
+  }
+  .tes {
+    height: 780px;
+  }
+  .contact .heading p {
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 25px;
+  }
+  .contact .container {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header .container .logo {
+    width: 100%;
+  }
+  .header .container .logo img {
+    width: 100%;
+  }
+  .header .container nav .right-data #menu {
+    width: 60px;
+    height: 60px;
+    font-size: 16px;
+  }
+  .header .container .navbar {
+    top: 9%;
+  }
+  .service .heading p {
+    font-size: 14px;
+  }
+  .service .container {
+    margin-top: 30px;
+  }
+  .tes .tesslider .sliderbox .data-box .text-box h1 {
+    font-size: 20px;
+  }
+  .tes .heading h1 {
+    font-size: 60px;
+    line-height: 40px;
+  }
+  .contact .container .left-data .icon i {
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+  }
+  .contact .container .right-data .form .message input {
+    font-size: 12px;
+    padding-left: 10px;
+  }
+  .contact .container .right-data .form .message input::placeholder {
+    font-size: 12px;
+  }
+  .contact .container .right-data .form .data-input .input input {
+    font-size: 12px;
+    padding-left: 10px;
+  }
+  .contact .container .right-data .form .data-input .input input::placeholder {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero .hero-image .text h5 {
+    font-size: 20px;
+  }
+  .hero .hero-image .text h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .about .container .text-about p {
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 0px;
+  }
+  .about .container .text-about button {
+    margin-top: 20px;
+  }
+  .service .container {
+    padding: 30px 0px;
+  }
+  .service .container .s1 {
+    width: 90%;
+    margin: 20px auto;
+  }
+  .service .container .s1 .data .text p {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(---black);
+    line-height: 20px;
+    margin: 20px 0px;
+  }
+  .service .container .s1 .data .text h1 {
+    font-size: 35px;
+  }
+  .service .heading h1 {
+    font-size: 60px;
+  }
+  .service .heading p {
+    font-size: 14px;
+  }
+  .tes .tesslider .data-box .text-box .image {
+    width: 50%;
+    margin: 0px auto;
+  }
+  .tes .tesslider .data-box .text-box .image img {
+    width: 100%;
+  }
+  .tes .tesslider .sliderbox .data-box {
+    height: 520px;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .tes .heading h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .contact .container .left-data .icon {
+    display: none;
+  }
+  .contact .container .right-data .form .message input {
+    font-size: 10px;
+    padding-left: 10px;
+  }
+  .contact .container .right-data .form .message input::placeholder {
+    font-size: 10px;
+  }
+  .contact .container .right-data .form .data-input .input input {
+    font-size: 10px;
+    padding-left: 10px;
+  }
+  .contact .container .right-data .form .data-input .input input::placeholder {
+    font-size: 10px;
+  }
+  .contact .container .right-data .form .button {
+    margin-left: 0px;
+  }
+  .footer {
+    margin-top: 50px;
+  }
+  .footer .container .search .input {
+    width: 100%;
+  }
+  .footer .container .logo {
+    width: 80%;
+    margin: 10px auto;
+  }
+  .footer .container .logo img {
+    width: 100%;
+  }
+}
+/* media quries */
